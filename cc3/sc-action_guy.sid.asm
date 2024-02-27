@@ -5,12 +5,12 @@ BasicUpstart2(start)
 //---------------------------------------------------------
 //---------------------------------------------------------
 
-.var music = LoadSid("../sids/ace_of_bass_dad.sid")		//<- Here we load the sid file
+.var music = LoadSid("../sids/action_guy.sid")		//<- Here we load the sid file
 
 // Get the Commodore64_Programming Repo for these import files 
-#import "../Commodore64_Programming/include/Constants.asm"
-#import "../Commodore64_Programming/include/Macros.asm"
-#import "../Commodore64_Programming/include/DrawPetMateScreen.asm"
+#import "E:/dev/github/cityxen/Commodore64_Programming/include/Constants.asm"
+#import "E:/dev/github/cityxen/Commodore64_Programming/include/Macros.asm"
+#import "E:/dev/github/cityxen/Commodore64_Programming/include/DrawPetMateScreen.asm"
 
 *=$4000 "SCREENS"
 #import "../petmate/screen1.asm"

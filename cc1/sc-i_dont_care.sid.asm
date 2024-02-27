@@ -7,9 +7,10 @@ BasicUpstart2(start)
 
 .var music = LoadSid("../sids/i_dont_care.sid")		//<- Here we load the sid file
 
-#import "../../include/Constants.asm"
-#import "../../include/Macros.asm"
-#import "../../include/DrawPetMateScreen.asm"
+// Get the Commodore64_Programming Repo for these import files 
+#import "../Commodore64_Programming/include/Constants.asm"
+#import "../Commodore64_Programming/include/Macros.asm"
+#import "../Commodore64_Programming/include/DrawPetMateScreen.asm"
 
 *=$4000 "SCREENS"
 #import "../petmate/screen1.asm"
